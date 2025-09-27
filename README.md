@@ -1,13 +1,13 @@
 # KAIRU Data Science 360 Bootcamp 🚀
-# DS360 Bootcamp: Iris Veri Seti Makine Öğrenimi Projesi
+## DS360 Bootcamp: Iris Veri Seti Makine Öğrenimi Projesi
 
 
-## 1. Proje Hakkında
+### 1. Proje Hakkında
 
 Bu proje, DVC (Data Version Control) kullanılarak oluşturulmuş bir MLOps (Makine Öğrenimi Operasyonları) projesi şablonudur. Amacı, Iris veri setini kullanarak farklı sınıflandırma modellerini (KNN, Lojistik Regresyon, SVC, Random Forest) eğitmek ve sonuçları izlenebilir kılmaktır.
 
 
-## 2. Kurulum
+### 2. Kurulum
 
 Projenin yerel makinenizde çalışması için aşağıdaki adımları izleyin:
 
@@ -58,16 +58,16 @@ Projenin ana dizin yapısı, temizlik ve organizasyon için standartlaştırılm
 
 DS360BOOTCAMP_IRIS_DATASET/
 
-├── data/                  # Ham ve İşlenmiş Verilerin Tutulduğu Klasör
+├── data/             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Ham ve İşlenmiş Verilerin Tutulduğu Klasör)
 
-├── models/                # Eğitilmiş Model Çıktıları (.pkl, .json metrikler)
+├── models/           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Eğitilmiş Model Çıktıları (.pkl, .json metrikler))
 
-├── src/                   # Tüm Python Kod Betikleri (clean_data.py, download_data.py, train_model.py)
+├── src/              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Tüm Python Kod Betikleri (clean_data.py, download_data.py, train_model.py))
 
-├── iris_venv/             # Python Sanal Ortamı (Git tarafından ignore edilir)
+├── iris_venv/        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Python Sanal Ortamı (Git tarafından ignore edilir))
 
-├── .gitignore             # Git tarafından takip edilmeyecek dosyaların listesi
+├── .gitignore        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Git tarafından takip edilmeyecek dosyaların listesi)
 
-├── requirements.txt       # Proje Bağımlılıkları Listesi
+├── requirements.txt  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Proje Bağımlılıkları Listesi)
 
-└── dvc.yaml               # DVC Pipeline Tanımı (Veri Akışı)
+└── dvc.yaml          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (DVC Pipeline Tanımı (Veri Akışı))
