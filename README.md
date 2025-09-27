@@ -18,11 +18,11 @@ cd projeAdi
 
 ### 2.1 Sanal Ortam Oluşturma (bash)
 
-python -m venv iris_venv
+python -m venv sanal_ortam_adi
 
-source iris_venv/bin/activate  # Linux/Mac
+source sanal_ortam_adi/bin/activate  # Linux/Mac
 
-source iris_venv/Scripts/activate   # Windows
+source sanal_ortam_adi/Scripts/activate   # Windows
 
 
 ### 2.2 Bağımlılıkları Yükleme
