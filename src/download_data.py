@@ -3,12 +3,12 @@ import seaborn as sns
 import os
 
 def download_titanic_data():
-    """Seaborn'dan Titanic veri setini indir"""
+    """Seaborn'dan iris veri setini indir"""
     
     # Veri dizinlerini oluştur
     os.makedirs('data/raw', exist_ok=True)
     
-    # Seaborn'dan Titanic veri setini yükle
+    # Seaborn'dan iris veri setini yükle
     df = sns.load_dataset('iris')
     
     # Ham veriyi kaydetme
